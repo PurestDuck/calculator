@@ -28,9 +28,14 @@ body{
     position:relative;
 }
 #calculation{
-    font-size: 48px;
+    font-size: 40px;
     position:absolute;
     bottom:0;
+    right:0;
+}
+#prevNum{
+    color:rgba(0, 0, 0, 0.568);
+    position:absolute;
     right:0;
 }
 #btnArea{
@@ -38,14 +43,16 @@ body{
     width: 100%;
     flex-flow: column nowrap;
 }
-.opBtn{
-    background-color: rgb(206, 255, 231);
-    height:50px;
-    width:50px;
-    margin: 10px;
-    border-radius: 20%;
-}
 .btnRow{
     display: flex;
     justify-content: space-evenly;
+}
+.opBtn{
+    background-color: rgb(206, 255, 231);
+    height:40px;
+    width:50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20%;
 }

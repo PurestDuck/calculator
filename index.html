@@ -12,32 +12,39 @@
 <body>
     <div id="calculator">
         <div id="display">
+            <div id="prevNum"></div>
             <div id="calculation">0</div>
         </div>
         <div id="btnArea">
             <div class="btnRow">
-                <button class="opBtn">1</button>
-                <button class="opBtn">2</button>
-                <button class="opBtn">3</button>
-                <button class="opBtn">+</button>
+                <button class="opBtn" id="clear">AC</button>
+                <button class="opBtn" id="switch">+/-</button>
+                <button class="opBtn operator">^</button>
+                <button class="opBtn operator">%</button>
             </div>
             <div class="btnRow">
-                <button class="opBtn">4</button>
-                <button class="opBtn">5</button>
-                <button class="opBtn">6</button>
-                <button class="opBtn">-</button>
+                <button class="opBtn num">1</button>
+                <button class="opBtn num">2</button>
+                <button class="opBtn num">3</button>
+                <button class="opBtn operator">+</button>
             </div>
             <div class="btnRow">
-                <button class="opBtn">7</button>
-                <button class="opBtn">8</button>
-                <button class="opBtn">8</button>
-                <button class="opBtn">*</button>
+                <button class="opBtn num">4</button>
+                <button class="opBtn num">5</button>
+                <button class="opBtn num">6</button>
+                <button class="opBtn operator">-</button>
             </div>
             <div class="btnRow">
-                <button class="opBtn">.</button>
-                <button class="opBtn">0</button>
-                <button class="opBtn">=</button>
-                <button class="opBtn">/</button>
+                <button class="opBtn num">7</button>
+                <button class="opBtn num">8</button>
+                <button class="opBtn num">8</button>
+                <button class="opBtn operator">*</button>
+            </div>
+            <div class="btnRow">
+                <button class="opBtn num">.</button>
+                <button class="opBtn num">0</button>
+                <button class="opBtn" id="calculate">=</button>
+                <button class="opBtn operator" >/</button>
             </div>
         </div>
     </div>
